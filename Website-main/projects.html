@@ -1,0 +1,168 @@
+<!--
+  Name: Yusra Hassan
+  Date: January 31, 2021 -
+  Description: A clean and simple website title page
+  Purpose: Practice with code formatting, lists, some CSS properties; Summary of what I've learned
+-->
+
+<!DOCTYPE html>
+<html lang="en-ca">
+<head> <!--Setting character set, title and style-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About me</title>
+  <link rel="stylesheet" href = "style.css">
+</head>
+<body>
+  <div>
+    <img src="logo.png" alt="Yusra Hassan" style = "display:block; margin-left:auto; margin-right:auto; width:15%;">
+    <ul id = "nav-bar"> <!--Navigation bar-->
+      <li><a href="skills.html" target = "_self" title = "Skills">Skills</a></li>
+      <li><a href="projects.html" target = "_self" title = "Projects">Projects</a></li>
+      <li><a href="contact.html" target = "_self" title = "Contact me">Contact</a></li>
+    </ul>
+    <h1>Projects</h1>
+  </div>
+  <div class = "project-list">
+    <div class="project">
+      <img src="mental.png">
+      <h2>Mental Health Clinic Data Analysis</h2>
+      <p>Extended other co-op students' findings in researching about Toronto's mental health.</p>
+      <p><strong>Year Started:</strong> 2021</p>
+      <p><strong>Language:</strong> Python</p>
+      <ul>
+        <li>Tidied and manipulated data using Jupyter Notebook and Pandas</li>
+        <li>Used SAP Analytics Cloud to create interactive visualizations</li>
+        <li>Discovered discrepancy between neighbourhood location and demographics</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <img src="eqao.png">
+      <h2>EQAO vs Suspension Rate Data Analysis</h2>
+      <p>Analyzed EQAO scores and suspension rates in Ontario for the 2019-2020 school year to look for a correlation.</p>
+      <p><strong>Year Started:</strong> 2024</p>
+      <p><strong>Language:</strong> Python</p>
+      <ul>
+        <li>Used Pandas for Data preparation and Matplotlib to create four total plots</li>
+        <li>Created complex visualizations including a labeled map using geopandas and a correlation matrix using seagram</li>
+        <li>Found that schools with a higher percentage of students attaining the standard (especially in reading) had lower suspension rates, but that there are other significant factors as well</li>
+        <li>Highlighted that current academic improvement efforts do not significantly impact suspension rates, calling for more effective strategies such as tailored education</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <img src="climate.png">
+      <h2>Climate Change Data Analysis</h2>
+      <p>Worked in a team of 6 to analyze the relationship between climate indicators and various factors, using Tidyverse and various datasets: Climate Survey Data, Emissions, Ice Rate of Change, Biofuel, and Primary Energy.</p>
+      <p><strong>Year Started:</strong> 2022</p>
+      <p><strong>Language:</strong> R</p>
+      <ul>
+        <li>Wrote a professional report using R Markdown with a table of contents leading to different sections of the analysis</li>
+        <li>Tidied Data through dplyr functions and a handwritten function for the survey data which was mapped to all survey datasets</li>
+        <li>Created 22 total visualizations using ggplot</li>
+        <li>Discovered that significant regional differences exist in climate concerns and emissions, with some nations like those in the EU drastically reducing greenhouse gas emissions and increasing renewable energy usage, while others with rapidly expanding economies heavily rely on fossil fuels, leading to increased emissions.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <img src="snow.png">
+      <h2>Snowball Strike</h2>
+      <p>Winter-themed word game using Pygame with a tower offense twist</p>
+      <p><strong>Year Started:</strong> 2020</p>
+      <p><strong>Language:</strong> Python</p>
+      <ul>
+          <li>Designed unique game story, structure and graphics</li>
+          <li>Event handling such as mouse click, mouse position and collision detection</li>
+          <li>UI elements such as a menu, buttons, switch</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <img src="wordsearch.png">
+      <h2>Wordsearch Solver</h2>
+      <p>Program that takes an all capitals 2D list (word search grid) as input and returns it with the desired words found and changed to lower case.</p>
+      <p><strong>Year Started:</strong> 2023</p>
+      <p><strong>Language:</strong> Python</p>
+      <ul>
+        <li>Advanced array operations and grid manipulation</li>
+        <li>Comprehensive Search Algorithms</li>
+        <li>Dynamic Case handling</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <img src="ten.png">
+      <h2>Ten Game</h2>
+      <p>Classic "Counting to 10" game with more options and the ability to play against a computer that will always make the best move possible.</p>
+      <p><strong>Year Started:</strong> 2020</p>
+      <p><strong>Language:</strong> Python</p>
+      <ul>
+        <li>Dynamic Game Setup with lots of options provided to the user</li>
+        <li>Error Handling and Validation</li>
+        <li>Strategic AI Implementation for the computer to pick the best move</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h2>FighterRobot</h2>
+      <p>Designed a robot (with Becker.Robots) to last the longest possible in a fight with other students' robots.</p>
+      <p><strong>Year Started:</strong> 2022</p>
+      <p><strong>Language:</strong> Java</p>
+      <ul>
+        <li>AI implementation for the robot to choose who to attack</li>
+        <li>Object-oriented design of Robots to store health, points and methods to move or attack</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <img src="character.png">
+      <h2>Character Art</h2>
+      <p>An animated portrait of a girl standing in front of a waterfall.</p>
+      <p><strong>Year Started:</strong> 2020</p>
+      <p><strong>Language:</strong> Python</p>
+      <ul>
+        <li>Complex graphic design using circles, polygons, rectangles and lines in pygame</li>
+        <li>Three different kinds of animation: disappearing leaves on click, horizontal water running, randomized waterfall streaks and mist to resemble a running waterfall</li>
+        <li>Different patterns drawn into parts of the water, leaves and girl's clothing</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h2>Racer Record</h2>
+      <p>Designed a record keeping system of different kinds of Olympic racers.</p>
+      <p><strong>Year Started:</strong> 2024</p>
+      <p><strong>Language:</strong> Python</p>
+      <ul>
+        <li>Developed hierarchy using abstraction and inheritance</li>
+        <li>Enhanced data integrity by implementing encapsulation for class attributes and methods.</li>
+        <li>Demonstrated polymorphism by implementing an AVL data structure storing both subclasses of Racers</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h2>Student Record-Keeping Database</h2>
+      <p>Designed and developed a database management system in a team of five.</p>
+      <p><strong>Year Started:</strong> 2023</p>
+      <p><strong>Language:</strong> SQL</p>
+      <ul>
+        <li>Created an ER diagram and a relational Model</li>
+        <li>Assembled a professional report detailing the conceptual and database design</li>
+        <li>Presented a demo to the class using statements such as SELECT, FROM, ORDER BY, JOIN, WHERE to solve different problems.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <img src="dino.png">
+      <h2>Dino Game</h2>
+      <p>Developed an educational dinosaur race game in Python using the Pygame library</p>
+      <p><strong>Year Started:</strong> 2020</p>
+      <p><strong>Language:</strong> Python</p>
+      <ul>
+        <li>Modular programming implementation</li>
+        <li>Designed and coded UI elements such as buttons, hover effects and animations</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

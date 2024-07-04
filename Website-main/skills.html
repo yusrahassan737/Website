@@ -1,0 +1,81 @@
+<!--
+  Name: Yusra Hassan
+  Date: January 31, 2021 -2024
+  Description: A clean and simple website title page
+  Purpose: Practice with code formatting, lists, some CSS properties; Summary of what I've learned
+-->
+
+<!DOCTYPE html>
+<html lang="en-ca">
+<head> <!--Setting character set, title and style-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href = "style.css">
+</head>
+<body>
+  <div>
+    <img src="logo.png" alt="Yusra Hassan" style = "display:block; margin-left:auto; margin-right:auto; width:15%;">
+    <ul id = "nav-bar"> <!--Navigation bar-->
+      <li><a href="skills.html" target = "_self" title = "Skills">Skills</a></li>
+      <li><a href="projects.html" target = "_self" title = "Projects">Projects</a></li>
+      <li><a href="contact.html" target = "_self" title = "Contact me">Contact</a></li>
+    </ul>
+    <h1>Skills From Various Courses and Experiences</h1>
+  </div>
+  <div class="skill-container">
+    <div class="skill-box">
+      <h2>Statistics and Data Science</h2>
+      <ul>
+        <li>Python (Matplotlib + Pandas)</li>
+        <li>R (Built-in statistics functions, Tidyverse)</li>
+        <li>Excel VBA</li>
+        <li>Some SQL</li>
+      </ul>
+      <a href="#stats">More</a>
+    </div>
+    <div class="skill-box">
+      <h2>Programming</h2>
+      <ul>
+        <li>Python (Data Structures, Games)</li>
+        <li>Java (Object-Oriented Programming)</li>
+        <li>C (Data Structures)</li>
+      </ul>
+      <a href="#programming">More</a>
+    </div>
+    <div class="skill-box">
+      <h2>Web development</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript (ProcessJS)</li>
+        <li>Some PHP</li>
+      </ul>
+      <a href="#webdev">More</a>
+    </div>
+  </div>
+
+  <h2 id = "stats">Statistics and Data Science</h2>
+  <p>
+Throughout my academic journey, I've developed a solid foundation in statistics and data analytics. In
+my probability coursework, I delved into elementary probability theory, conditional probability and
+independence, discrete and continuous random variables, expected value, variance, covariance, and
+correlation, as well as moment generating functions, the Law of Large Numbers, and the Central Limit
+Theorem. In statistics, I explored numerical and visual exploratory data analysis, probability models,
+point and interval estimation, estimator bias and mean squared error, single-sample, paired, and
+two-sample inference and hypothesis testing, experimental design, analysis of variance, goodness of fit,
+categorical data analysis, and simple linear regression models. Using RStudio's statistical software, I
+became proficient in performing hypothesis testing and more.
+My data analytics course offered a broad overview of modern methods and tools for big data analytics,
+ covering the entire data analytics lifecycle—from diagnosing and cleaning to preparing, transforming,
+visualizing, and modeling data. This course emphasized the use of RStudio's tidyverse, along with tools
+ like Excel, Google Spreadsheets, and Python. As an instructional assistant for this course, I've kept up
+ with the latest updates in R, further enhancing my skills.
+My journey with Python's matplotlib and pandas began in high school, where I learned to clean and
+analyze datasets. I took these skills further in a data visualization course, creating complex plots such
+as maps and correlograms. Over the years, I've worked with a variety of datasets, including mental health
+clinic data, adoption agency data, census data, EQAO score data, and more. These experiences have
+sharpened my ability to extract meaningful insights from data and present them effectively.
+  </p>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!--
+  Name: Yusra Hassan
+  Date: January 31, 2021 -2024
+  Description: A clean and simple website title page
+  Purpose: Practice with code formatting, lists, some CSS properties; Summary of what I've learned
+-->
+
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome</title>
+  <link rel="stylesheet" href = "style.css">
+</head>
+<body>
+  <div id = "welcome-screen" onclick = "changeScreen()">
+    <h1>Welcome<br>to Yusra's Website</h1>
+  </div>
+  <div id = "main-content">
+    <img src="logo.png" alt="Yusra Hassan" style = "display:block; margin-left:auto; margin-right:auto; width:15%;">
+    <ul id = "nav-bar">
+      <li><a href="skills.html" target = "_self" title = "Skills">Skills</a></li>
+      <li><a href="projects.html" target = "_self" title = "Projects">Projects</a></li>
+      <li><a href="contact.html" target = "_self" title = "Contact me">Contact</a></li>
+    </ul>
+  </div>
+  <script>
+    function changeScreen() {
+      var welcome = document.getElementById('welcome-screen');
+      welcome.classList.add('fade');
+      setTimeout(function() {
+        var main = document.getElementById('main-content');
+        welcome.style.display = 'none';
+        main.style.display = 'block';
+      }, 1000);
+    }
+  </script>
+  <h2>Hi, I'm a third-year data science student excited to join the world of tech.</h2>
+  <h2>Click on my skills or projects to learn more about me!</h2>
+</body>
+</html>
